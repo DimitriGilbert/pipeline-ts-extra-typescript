@@ -1,0 +1,28 @@
+{
+  "name": "pipeline-ts-typescript",
+  "version": "0.0.1",
+  "description": "pipeline-ts typescript pipeline and stages",
+  "main": "build/index.js",
+  "dependencies": {
+    "@types/child-process-promise": "^2.2.1",
+    "@types/deepmerge": "^2.2.0",
+    "@types/jest": "^26.0.3",
+    "@types/node": "^14.0.13",
+    "child-process-promise": "^2.2.1",
+    "deepmerge": "^4.2.2",
+    "is-directory": "github:jonschlinkert/is-directory",
+    "jest": "^26.1.0",
+    "pipeline-ts": "github:DimitriGilbert/pipeline-ts",
+    "ts-jest": "^26.1.1",
+    "typescript": "^3.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "DimitriGilbert",
+  "license": "MIT",
+  "bin": {
+    "pipeline-typescript":"build/bin.js"
+  }
+}
